@@ -1,0 +1,177 @@
+body, html {
+    height: 100%;
+    margin: 0px;
+    background-color: rgb(144, 99, 99);
+}
+
+
+
+nav li {
+    display: inline-block;
+    font-size: larger; 
+    padding: 2vh;
+}    
+
+nav ul {
+    list-style-type: none;
+    background-color: bisque;
+    margin: 0;
+    top: 0;
+    height: 8vh;
+    width: 100%;
+    position: fixed;
+    overflow: hidden;
+    text-align: center;
+}
+
+nav a {
+    text-decoration: none;
+    padding: 8vh;
+    color: black;
+}
+
+nav a:hover {
+    color: rgb(255, 255, 255);
+    background-color: brown;
+}
+
+nav a:active {
+    text-decoration: none;
+}
+
+nav a:visited {
+    text-decoration: none;
+}
+
+#current {
+    background-color: rgb(193, 156, 111);
+
+}
+
+.sm-convoy {
+    background-image:url("../images/Convoy\ Photo.jpg");
+    height: 450px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-top: 8vh;
+}
+
+.convoy-text {
+    text-align: right;
+    margin-right: 10vh;
+    padding-top: 1vh;
+    color: white;
+    font-size: large;
+    text-shadow: 1px 1px 2px red;
+}
+
+#main1 {
+    width: 70%;
+    float: left;
+    height: 100%;
+    padding-left: 15px;
+    padding-top: 15px;
+    background-color: beige;
+}
+
+#side-main {
+    width: 20%;
+    float: right;
+    height: 100%;
+    text-align: center;
+    color: rgb(215, 209, 209);
+    background-color: black;
+    margin-bottom: -200px;
+}
+
+#main1, #side-main {
+    padding: 10px;
+    margin: 15px;  
+    border-radius: 10px;
+}
+
+.main-articles {
+    color: rgb(110, 36, 36);
+    margin-bottom: 0;
+}
+
+#steak {
+    height: 250px;
+    width: 250px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+#steak-cap {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+#doubles {
+    height: 250px;
+    width: 350px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+#doubles-cap {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#trilogy, #contact {
+    margin: 15px;
+    background-color: rgb(50, 43, 43);
+    border-radius: 10px;
+    padding: 40px;
+}
+
+#trilogy {
+    height: 22vh;
+    padding-top: 8px;
+}
+
+#contact {
+    height: 83vh;
+}
+
+#submit1 {
+    margin: 15px;
+}
+
+#submit2 {
+    margin: 15px;
+}
+
+footer {
+    width: 100%;
+    background-color: rgb(144, 99, 99);
+    height: 5vh;
+    margin-top: 0;
+}
+
+main {
+    overflow: auto;
+}
+
+footer hr {
+    margin-top: 0;
+    height: 10px;
+    border: 0;
+    box-shadow: inset 0 12px 12px -12px rgb(255, 255, 255);
+}
+
+footer div a img {
+    height: 50px;
+    width: 50px;
+    padding-bottom: 15px;
+    margin-left: 15px;
+}
+
